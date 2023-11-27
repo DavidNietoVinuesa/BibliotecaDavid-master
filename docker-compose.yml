@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: postgres:16.0
+    environment:
+    - POSTGRES_DB=biblioteca
+    - POSTGRES_USER=postgres
+    - POSTGRES_PASSWORD=david2207
+    ports:
+    - 5432:5432
